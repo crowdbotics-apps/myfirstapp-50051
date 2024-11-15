@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "64e6fba784cc6e89e42bafc1ed2d1cbc9cd0597f008eb88bcd138f2277484a94"
+            "sha256": "65a78f442ff7292e87d06e35fea408beeac9002d0f2fca349498e6eaff8f33f9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -99,6 +99,10 @@
         "cb-django-mailchimp": {
             "editable": true,
             "path": "./modules/django_mailchimp"
+        },
+        "cb-django-ocr": {
+            "editable": true,
+            "path": "./modules/django_ocr"
         },
         "certifi": {
             "hashes": [
@@ -493,6 +497,14 @@
             "index": "pypi",
             "version": "==2.18.2"
         },
+        "google-cloud-vision": {
+            "hashes": [
+                "sha256:75c7f9c22199ba663cea7d6c1193d5a72ac1e5e2215346a852af133ce69c4f5f",
+                "sha256:e8c0c39747ead61b745bee949c4ba924865e8fac31c5d60c31cbbf2632ceda7e"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==3.8.1"
+        },
         "google-crc32c": {
             "hashes": [
                 "sha256:05e2d8c9a2f853ff116db9706b4a27350587f341eda835f46db3c0a8c8ce2f24",
@@ -535,7 +547,6 @@
             "version": "==2.7.2"
         },
         "googleapis-common-protos": {
-            "extras": [],
             "hashes": [
                 "sha256:c3e7b33d15fdca5374cc0a7346dd92ffa847425cc4ea941d970f13680052ec8c",
                 "sha256:d7abcd75fabb2e0ec9f74466401f6c119a0b498e27370e9be4c94cb7e382b8ed"
@@ -1143,6 +1154,37 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==3.7.0"
+        },
+        "tesserocr": {
+            "hashes": [
+                "sha256:0a0895a4d9ff6a34f5a6f203fe0c9899f31d6f2378ae99be80605637b622687b",
+                "sha256:1b6349d35d333d420d24acf1953ad6f1d5613ffcde462c62126b68bdfca12753",
+                "sha256:1b8c4828f970af7bcfca83a1fb228aa68a2587299387bc875d0dfad8b6baf8ed",
+                "sha256:2690cb2330fc9349d68ff027cbdac09693fdda36470836b196c04f16dcc99e9d",
+                "sha256:3744c5c8bbabf18172849c7731be00dc2e5e44f8c556d37c850e788794ae0af4",
+                "sha256:37abde15c1c940d691305fd87836e4cad25a1434799729c324bbcd2277bcae44",
+                "sha256:3bb5d336ebf2cc47cd0d117cadc8b25b2e558f54fb9a2dedaa28a14cb5a6b437",
+                "sha256:3ff7f6d6b5c12dd31b80842eb0892b661a41ca3edf0e6cc1e54ec2c14552ceef",
+                "sha256:42f009cde8479f3b339da12a8e419fd9559b64b13bc08a248bd0833c6ae94331",
+                "sha256:44e71b3e8da36b2567760309398689ea9785ee62db3ff21140a9ea6941a233c4",
+                "sha256:4a8888b765e26680a6e34b8ec09b7bb85a17e08cea76f0661eafe2a84254562a",
+                "sha256:4c3187d14b95c866aa1d34cc374a53d583e2168742eefe33347e4790af70338e",
+                "sha256:4c5f59fb072c90bff8aa6a365fc82b747c2668b7b48233901728b155860d1ff9",
+                "sha256:64f25763e56c4c29b808e59b485c930cac46b6a1ac8eadd994086dc40a29d3a1",
+                "sha256:65afdec0c5dc09a4a23a62e65524989cd940af41be1603e251a64ac10de9babf",
+                "sha256:6e13204b3b92fac76ece6e33f55eba6335b30e379f4a7b75e285c2ad05762027",
+                "sha256:6e613213ea5b64db06f2cba0b93c3656b7e6aec2d9b2d2e929edf49da7143225",
+                "sha256:ae794c5434373f4afa4c7f8b59f19fde810f8caf096d8bb701a4b2f3a6739460",
+                "sha256:b2d3d23223d0a448877fb91af83c46ce95ff0a497a82fa93e93068148c9712e5",
+                "sha256:d01ebd094103451ecb77b6510ade2f6bb064c51413ff35b135f649f3d6067a67",
+                "sha256:e31a49d7784e7e52fe656719145c3a872856d67daa9bfb340c2990db00e023e9",
+                "sha256:e80051812685bd521bc17cb70cf1480ffbb3e54ccc2883e90d5bcda15f8278ea",
+                "sha256:ec52be3d82136430081427062ad0211a52fc38fa28fe58e216b89f840354f216",
+                "sha256:ef8a09a44c2e96bab0f40dbf0633767d063680d86b79365b43fc4e1234219694",
+                "sha256:f62d662e3002868384e14e8cd620bdedf34ab9f9fc3ebbce527cfe032a7485ee",
+                "sha256:f8069ae6cd9ea3c056b6a596bc99f501ee9f95d6fd2928fcaffb9777071c210d"
+            ],
+            "version": "==2.7.1"
         },
         "tomli": {
             "hashes": [

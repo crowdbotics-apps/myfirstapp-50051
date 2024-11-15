@@ -37,3 +37,4 @@ azure-keyvault-secrets = "~=4.8.0"
 azure-identity = "~=1.17.1"
 azure-storage-blob = "==12.23.1"
 cb-django-mailchimp = {editable = true, path = "./modules/django_mailchimp"}
+cb-django-ocr = {editable = true, path = "./modules/django_ocr"}
