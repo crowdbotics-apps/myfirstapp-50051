@@ -65,6 +65,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-qr-code](modules/qr-code)
 - [django-mailchimp](backend/modules)
 - [django-ocr](backend/modules)
+- [faq]()
 
 # Getting started: Frontend
 
